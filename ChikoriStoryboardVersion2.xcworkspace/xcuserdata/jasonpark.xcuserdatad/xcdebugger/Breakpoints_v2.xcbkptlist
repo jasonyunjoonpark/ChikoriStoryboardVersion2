@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493337"
+            timestampString = "542934444.612956"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "setupPlayer()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493431"
+            timestampString = "542934444.613416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "setupPlayer()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493522"
+            timestampString = "542934444.613741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493572"
+            timestampString = "542934444.614028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493616"
+            timestampString = "542934444.6142631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "getSpotifyCatalogWith(url:)"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "setupSpotifySearch()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,12 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SearchController.swift"
-            timestampString = "542931714.493659"
+            timestampString = "542934444.6145509"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "parseData(JSONData:)"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "setupPlayer()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-            timestampString = "542931714.493741"
+            timestampString = "542934444.614895"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-            timestampString = "542931714.4941911"
+            timestampString = "542934444.615036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-            timestampString = "542931714.494507"
+            timestampString = "542934444.615128"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-            timestampString = "542931714.494791"
+            timestampString = "542934444.615208"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "spotifyLoginSuccessful()"
             landmarkType = "7">
             <Locations>
@@ -170,11 +170,11 @@
                   moduleName = "ChikoriStoryboardVersion2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonpark/Desktop/iosdev/Projects/ChikoriStoryboardVersion2/ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-                  timestampString = "542931714.844171"
+                  timestampString = "542934445.113431"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
                   offsetFromSymbolStart = "14">
                </Location>
                <Location
@@ -185,11 +185,11 @@
                   moduleName = "ChikoriStoryboardVersion2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jasonpark/Desktop/iosdev/Projects/ChikoriStoryboardVersion2/ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-                  timestampString = "542931714.849196"
+                  timestampString = "542934445.116749"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
                   offsetFromSymbolStart = "17">
                </Location>
             </Locations>
@@ -202,13 +202,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChikoriStoryboardVersion2/SpotifyLoginController.swift"
-            timestampString = "542931714.49506"
+            timestampString = "542934444.615284"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "spotifyLoginSuccessful()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChikoriStoryboardVersion2.SpotifyLoginController.spotifyLoginSuccessful() -&gt; ()"
+                  moduleName = "ChikoriStoryboardVersion2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasonpark/Desktop/iosdev/Projects/ChikoriStoryboardVersion2/ChikoriStoryboardVersion2/SpotifyLoginController.swift"
+                  timestampString = "542934445.123717"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "187">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ChikoriStoryboardVersion2.SpotifyLoginController.spotifyLoginSuccessful() -&gt; ()"
+                  moduleName = "ChikoriStoryboardVersion2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jasonpark/Desktop/iosdev/Projects/ChikoriStoryboardVersion2/ChikoriStoryboardVersion2/SpotifyLoginController.swift"
+                  timestampString = "542934445.126686"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
