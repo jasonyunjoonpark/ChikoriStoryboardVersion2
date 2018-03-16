@@ -21,6 +21,7 @@ struct Post {
 
 class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate, SPTAudioStreamingDelegate, UISearchBarDelegate {
 
+    
     @IBOutlet weak var searchBar: UISearchBar!
     var searchURL = String()
     var posts = [Post]()
@@ -29,10 +30,14 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        setupPlayer()
-        searchBar.delegate = self
+
+        //Setup Search Bar if Spotify session exists
+
+        setupSpotifySearch()
+
     }
+    
+
     
     func getSpotifyCatalogWith(url: String) {
         Alamofire.request(url,
@@ -41,6 +46,18 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
                           encoding: URLEncoding.default,
                           headers: ["Authorization": "Bearer " + Source.si.session.accessToken]).responseJSON { (response) in
                             self.parseData(JSONData: response.data!)
+        }
+    }
+    
+    func setupSpotifySearch() {
+        if Source.si.session != nil {
+            setupPlayer()
+            UISearchBarDelegate = self
+
+        } else {
+            var image = UIImageView(frame: self.view.frame)
+            image.backgroundColor = UIColor.brown
+            self.view.addSubview(image)
         }
     }
     
@@ -89,6 +106,7 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
         } catch {
             print(error.localizedDescription)
         }
+        print(Source.si.session)
         Source.si.spotifyPlayer.login(withAccessToken: Source.si.session.accessToken)
     }
     

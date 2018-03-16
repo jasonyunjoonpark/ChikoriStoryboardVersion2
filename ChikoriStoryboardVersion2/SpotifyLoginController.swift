@@ -71,6 +71,7 @@ class SpotifyLoginController: UIViewController {
             let firstTimeSession = NSKeyedUnarchiver.unarchiveObject(with: sessionDataObj) as! SPTSession
             Source.si.session = firstTimeSession
             spotifyLoginSuccessful()
+            
         }
     }
     
@@ -81,6 +82,8 @@ class SpotifyLoginController: UIViewController {
             self.dismiss(animated: (self.sfSafariViewController != nil), completion: nil)
 
         }
+        
+        //if login successful update SearchController and ProfileController
     }
         
         
