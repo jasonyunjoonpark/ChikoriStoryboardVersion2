@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0A0E38AA205AFEF700760CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38A9205AFEF700760CBA /* AppDelegate.swift */; };
-		0A0E38AC205AFEF700760CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38AB205AFEF700760CBA /* ViewController.swift */; };
 		0A0E38AF205AFEF700760CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E38AD205AFEF700760CBA /* Main.storyboard */; };
 		0A0E38B1205AFEF700760CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E38B0205AFEF700760CBA /* Assets.xcassets */; };
 		0A0E38B4205AFEF700760CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0E38B2205AFEF700760CBA /* LaunchScreen.storyboard */; };
+		0A0E38BC205B037F00760CBA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38BB205B037F00760CBA /* TabBarController.swift */; };
+		0A0E38BE205B05D500760CBA /* SpotifyLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38BD205B05D500760CBA /* SpotifyLoginController.swift */; };
+		0A0E38C0205B05FE00760CBA /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38BF205B05FE00760CBA /* SearchController.swift */; };
+		0A0E38D0205B0C3B00760CBA /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E38CD205B0C3A00760CBA /* SpotifyMetadata.framework */; };
+		0A0E38D1205B0C3B00760CBA /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E38CE205B0C3B00760CBA /* SpotifyAudioPlayback.framework */; };
+		0A0E38D2205B0C3B00760CBA /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0E38CF205B0C3B00760CBA /* SpotifyAuthentication.framework */; };
+		0A0E38D4205B0C9000760CBA /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38D3205B0C9000760CBA /* Source.swift */; };
+		0A0E38D6205B2D8200760CBA /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E38D5205B2D8200760CBA /* PlayerController.swift */; };
+		C996900E79098BEB9BEE99D8 /* Pods_ChikoriStoryboardVersion2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16FA5F1CAB9BDC83524F10E /* Pods_ChikoriStoryboardVersion2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0E38A6205AFEF700760CBA /* ChikoriStoryboardVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChikoriStoryboardVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0E38A9205AFEF700760CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A0E38AB205AFEF700760CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A0E38AE205AFEF700760CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A0E38B0205AFEF700760CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0E38B3205AFEF700760CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0E38B5205AFEF700760CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0E38BB205B037F00760CBA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0A0E38BD205B05D500760CBA /* SpotifyLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginController.swift; sourceTree = "<group>"; };
+		0A0E38BF205B05FE00760CBA /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		0A0E38CD205B0C3A00760CBA /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		0A0E38CE205B0C3B00760CBA /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		0A0E38CF205B0C3B00760CBA /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		0A0E38D3205B0C9000760CBA /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		0A0E38D5205B2D8200760CBA /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		7CC881D8E52E7B30F6ECF582 /* Pods-ChikoriStoryboardVersion2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikoriStoryboardVersion2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChikoriStoryboardVersion2/Pods-ChikoriStoryboardVersion2.release.xcconfig"; sourceTree = "<group>"; };
+		7F6D98199D7D2AC7C24D76BC /* Pods-ChikoriStoryboardVersion2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikoriStoryboardVersion2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChikoriStoryboardVersion2/Pods-ChikoriStoryboardVersion2.debug.xcconfig"; sourceTree = "<group>"; };
+		C16FA5F1CAB9BDC83524F10E /* Pods_ChikoriStoryboardVersion2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikoriStoryboardVersion2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0E38D0205B0C3B00760CBA /* SpotifyMetadata.framework in Frameworks */,
+				0A0E38D2205B0C3B00760CBA /* SpotifyAuthentication.framework in Frameworks */,
+				C996900E79098BEB9BEE99D8 /* Pods_ChikoriStoryboardVersion2.framework in Frameworks */,
+				0A0E38D1205B0C3B00760CBA /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,8 @@
 			children = (
 				0A0E38A8205AFEF700760CBA /* ChikoriStoryboardVersion2 */,
 				0A0E38A7205AFEF700760CBA /* Products */,
+				431131C38B48C5883184199C /* Pods */,
+				BD39BA992272EAFC2B49B8BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,38 @@
 		0A0E38A8205AFEF700760CBA /* ChikoriStoryboardVersion2 */ = {
 			isa = PBXGroup;
 			children = (
+				0A0E38D3205B0C9000760CBA /* Source.swift */,
 				0A0E38A9205AFEF700760CBA /* AppDelegate.swift */,
-				0A0E38AB205AFEF700760CBA /* ViewController.swift */,
+				0A0E38BB205B037F00760CBA /* TabBarController.swift */,
+				0A0E38BD205B05D500760CBA /* SpotifyLoginController.swift */,
+				0A0E38BF205B05FE00760CBA /* SearchController.swift */,
+				0A0E38D5205B2D8200760CBA /* PlayerController.swift */,
 				0A0E38AD205AFEF700760CBA /* Main.storyboard */,
 				0A0E38B0205AFEF700760CBA /* Assets.xcassets */,
 				0A0E38B2205AFEF700760CBA /* LaunchScreen.storyboard */,
 				0A0E38B5205AFEF700760CBA /* Info.plist */,
 			);
 			path = ChikoriStoryboardVersion2;
+			sourceTree = "<group>";
+		};
+		431131C38B48C5883184199C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D98199D7D2AC7C24D76BC /* Pods-ChikoriStoryboardVersion2.debug.xcconfig */,
+				7CC881D8E52E7B30F6ECF582 /* Pods-ChikoriStoryboardVersion2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD39BA992272EAFC2B49B8BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E38CE205B0C3B00760CBA /* SpotifyAudioPlayback.framework */,
+				0A0E38CF205B0C3B00760CBA /* SpotifyAuthentication.framework */,
+				0A0E38CD205B0C3A00760CBA /* SpotifyMetadata.framework */,
+				C16FA5F1CAB9BDC83524F10E /* Pods_ChikoriStoryboardVersion2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0E38B8205AFEF700760CBA /* Build configuration list for PBXNativeTarget "ChikoriStoryboardVersion2" */;
 			buildPhases = (
+				5AC0FF42DFBF668376A0152B /* [CP] Check Pods Manifest.lock */,
 				0A0E38A2205AFEF700760CBA /* Sources */,
 				0A0E38A3205AFEF700760CBA /* Frameworks */,
 				0A0E38A4205AFEF700760CBA /* Resources */,
+				0C4BF6D1122478A1F4230EF5 /* [CP] Embed Pods Frameworks */,
+				477096A823BC87DD93960781 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +182,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C4BF6D1122478A1F4230EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChikoriStoryboardVersion2/Pods-ChikoriStoryboardVersion2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Spotify-iOS-SDK/Spotify.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spotify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikoriStoryboardVersion2/Pods-ChikoriStoryboardVersion2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477096A823BC87DD93960781 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikoriStoryboardVersion2/Pods-ChikoriStoryboardVersion2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC0FF42DFBF668376A0152B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChikoriStoryboardVersion2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A0E38A2205AFEF700760CBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0E38AC205AFEF700760CBA /* ViewController.swift in Sources */,
+				0A0E38BC205B037F00760CBA /* TabBarController.swift in Sources */,
+				0A0E38C0205B05FE00760CBA /* SearchController.swift in Sources */,
+				0A0E38D6205B2D8200760CBA /* PlayerController.swift in Sources */,
+				0A0E38D4205B0C9000760CBA /* Source.swift in Sources */,
+				0A0E38BE205B05D500760CBA /* SpotifyLoginController.swift in Sources */,
 				0A0E38AA205AFEF700760CBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +401,15 @@
 		};
 		0A0E38B9205AFEF700760CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6D98199D7D2AC7C24D76BC /* Pods-ChikoriStoryboardVersion2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJCGPLSA62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChikoriStoryboardVersion2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonpark.ChikoriStoryboardVersion2;
@@ -287,10 +421,15 @@
 		};
 		0A0E38BA205AFEF700760CBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC881D8E52E7B30F6ECF582 /* Pods-ChikoriStoryboardVersion2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJCGPLSA62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ChikoriStoryboardVersion2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonpark.ChikoriStoryboardVersion2;

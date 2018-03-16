@@ -1,24 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dUr-ht-mwM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home-->
+        <scene sceneID="E0h-xj-4E3">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="Dwh-Id-nWs" customClass="SpotifyLoginController" customModule="ChikoriStoryboardVersion2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TTo-vi-ugY"/>
+                        <viewControllerLayoutGuide type="bottom" id="bnF-ak-Mgv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LnF-hE-e6C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5k-il-jpV">
+                                <rect key="frame" x="80" y="463.5" width="215" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.73333333329999995" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SZX-le-Pr8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="LOG IN WITH SPOTIFY">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="spotifyLoginButtonPressed:" destination="Dwh-Id-nWs" eventType="touchUpInside" id="6KZ-AX-lVD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y5k-il-jpV" firstAttribute="centerY" secondItem="LnF-hE-e6C" secondAttribute="centerY" constant="150" id="G1H-Gc-xhU"/>
+                            <constraint firstItem="Y5k-il-jpV" firstAttribute="centerX" secondItem="LnF-hE-e6C" secondAttribute="centerX" id="HV8-L8-xeX"/>
+                            <constraint firstItem="Y5k-il-jpV" firstAttribute="leading" secondItem="LnF-hE-e6C" secondAttribute="leading" constant="80" id="Hcw-sz-OoA"/>
+                            <constraint firstAttribute="trailing" secondItem="Y5k-il-jpV" secondAttribute="trailing" constant="80" id="sSn-we-dov"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="ebp-Tr-SDu"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r81-bO-ZGK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1388" y="-931"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="HSC-wr-PLP">
+            <objects>
+                <tableViewController id="Pnt-0C-Qmx" customClass="SearchController" customModule="ChikoriStoryboardVersion2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SKH-X5-2BB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="rNX-7m-WMb">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="sD8-Mg-nE2"/>
+                            </constraints>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="zxm-Ve-AQ0">
+                                <rect key="frame" x="0.0" y="84" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zxm-Ve-AQ0" id="Yy6-WI-u3U">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u9a-eg-SlC">
+                                            <rect key="frame" x="16" y="9" width="80" height="80"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="u9a-eg-SlC" secondAttribute="height" multiplier="1:1" id="Eiv-9K-J1A"/>
+                                                <constraint firstAttribute="height" constant="80" id="esI-T5-eiv"/>
+                                                <constraint firstAttribute="width" constant="80" id="r5c-kl-tzM"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TD-Ii-Uvq">
+                                            <rect key="frame" x="104" y="39" width="255" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="9TD-Ii-Uvq" firstAttribute="leading" secondItem="u9a-eg-SlC" secondAttribute="trailing" constant="8" id="Yxq-MD-OLm"/>
+                                        <constraint firstItem="u9a-eg-SlC" firstAttribute="leading" secondItem="Yy6-WI-u3U" secondAttribute="leading" constant="16" id="a56-j1-gmP"/>
+                                        <constraint firstItem="u9a-eg-SlC" firstAttribute="top" secondItem="Yy6-WI-u3U" secondAttribute="top" constant="9" id="ji3-GH-V1I"/>
+                                        <constraint firstAttribute="bottom" secondItem="u9a-eg-SlC" secondAttribute="bottom" constant="10.5" id="rke-04-l5V"/>
+                                        <constraint firstItem="9TD-Ii-Uvq" firstAttribute="centerY" secondItem="Yy6-WI-u3U" secondAttribute="centerY" id="sdA-OA-S0k"/>
+                                        <constraint firstAttribute="trailing" secondItem="9TD-Ii-Uvq" secondAttribute="trailing" constant="16" id="wJk-Wg-3a1"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Pnt-0C-Qmx" id="IOQ-jz-0Dx"/>
+                            <outlet property="delegate" destination="Pnt-0C-Qmx" id="a2l-dg-coy"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Search" id="lYX-xJ-xh7"/>
+                    <connections>
+                        <outlet property="searchBar" destination="rNX-7m-WMb" id="ESP-p6-mut"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ueJ-p5-QGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1388" y="-257"/>
+        </scene>
+        <!--TabBarController-->
+        <scene sceneID="qZH-4B-84j">
+            <objects>
+                <tabBarController id="dUr-ht-mwM" userLabel="TabBarController" customClass="TabBarController" customModule="ChikoriStoryboardVersion2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UOr-O8-q7y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Dwh-Id-nWs" kind="relationship" relationship="viewControllers" id="seF-BB-F2p"/>
+                        <segue destination="Pnt-0C-Qmx" kind="relationship" relationship="viewControllers" id="W8j-Tf-Ort"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5R-Im-ELr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="-501"/>
         </scene>
     </scenes>
 </document>
