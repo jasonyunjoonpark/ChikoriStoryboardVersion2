@@ -52,7 +52,7 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
     func setupSpotifySearch() {
         if Source.si.session != nil {
             setupPlayer()
-            UISearchBarDelegate = self
+            searchBar.delegate = self
 
         } else {
             var image = UIImageView(frame: self.view.frame)
