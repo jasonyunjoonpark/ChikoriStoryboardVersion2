@@ -77,10 +77,10 @@ class SpotifyLoginController: UIViewController {
     
     
     func spotifyLoginSuccessful() {
-        
         DispatchQueue.main.async {
             self.dismiss(animated: (self.sfSafariViewController != nil), completion: nil)
-
+            
+            NotificationCenter.default.post(name: Notification.Name(rawValue: "updateSearchController"), object: nil)
         }
         
         //if login successful update SearchController and ProfileController

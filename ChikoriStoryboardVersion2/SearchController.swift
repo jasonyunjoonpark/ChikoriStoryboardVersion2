@@ -30,13 +30,20 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(SearchController.updateSearchController),
+                                               name: Notification.Name(rawValue: "updateSearchController"),
+                                               object: nil)
+        
         //Setup Search Bar if Spotify session exists
-
         setupSpotifySearch()
 
     }
     
+    @objc func updateSearchController() {
+        setupSpotifySearch()
+    }
 
     
     func getSpotifyCatalogWith(url: String) {
@@ -55,9 +62,9 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
             searchBar.delegate = self
 
         } else {
-            var image = UIImageView(frame: self.view.frame)
-            image.backgroundColor = UIColor.brown
-            self.view.addSubview(image)
+//            var image = UIImageView(frame: self.view.frame)
+//            image.backgroundColor = UIColor.brown
+//            self.view.addSubview(image)
         }
     }
     
