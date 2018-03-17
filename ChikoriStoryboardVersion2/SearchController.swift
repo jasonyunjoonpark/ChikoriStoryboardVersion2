@@ -145,5 +145,13 @@ class SearchController: UITableViewController, SPTAudioStreamingPlaybackDelegate
         
         return cell!
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let indexPath = tableView.indexPathForSelectedRow?.row
+        let vc = segue.destination as! PlayerController
+        vc.albumImage = posts[indexPath!].image
+        vc.songTitle = posts[indexPath!].name
+        vc.songURI = posts[indexPath!].songURI
+    }
 
 }
