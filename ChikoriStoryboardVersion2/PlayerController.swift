@@ -16,6 +16,7 @@ class PlayerController: UIViewController {
     var songTitle = String()
     var songURI = String()
     
+    
     @IBOutlet weak var titleLabel: UINavigationItem!
     @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var mainImageView: UIImageView!
